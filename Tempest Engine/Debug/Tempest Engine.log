@@ -1,0 +1,30 @@
+﻿Build started 07.03.2016 1:41:56.
+     1>Project "F:\Games\Programming\Project\My code\Tempest Engine\Tempest Engine\Tempest Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 13\VC\bin\CL.exe /c /I"F:\Games\Programming\Project\My code\Tempest Engine\Tempest Engine\\" /I"F:\Games\Programming\Project\My code\Tempest Engine\Tempest Engine\\Source" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\D3D11\CD3D11Text.cpp
+         CD3D11Text.cpp
+     1>f:\games\programming\project\my code\tempest engine\tempest engine\source\d3d11\cd3d11text.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\games\programming\project\my code\tempest engine\tempest engine\source\d3d11\cd3d11text.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\games\programming\project\my code\tempest engine\tempest engine\source\d3d11\cd3d11text.cpp(151): warning C4244: '+=' : conversion from 'double' to 'Tempest::f32', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Games\Programming\Project\My code\Tempest Engine\Debug\Tempest Engine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Games\Programming\Project\My code\Tempest Engine\Debug\Tempest Engine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Games\Programming\Project\My code\Tempest Engine\Debug\Tempest Engine.lib" /MACHINE:X86 "Debug\Tempest Engine.res"
+         Debug\CChrono.obj
+         Debug\CInput.obj
+         Debug\CTempestCore.obj
+         Debug\TempestLogging.obj
+         Debug\CWindow.obj
+         Debug\CD3D11Mesh.obj
+         Debug\CD3D11RenderSystem.obj
+         Debug\CD3D11Text.obj
+         Debug\Main.obj
+         Debug\CCamera.obj
+         Debug\CMaterial.obj
+         Debug\CMesh.obj
+         Debug\CRenderSystem.obj
+         Debug\CTexture.obj
+         Tempest Engine.vcxproj -> F:\Games\Programming\Project\My code\Tempest Engine\Debug\Tempest Engine.exe
+     1>Done Building Project "F:\Games\Programming\Project\My code\Tempest Engine\Tempest Engine\Tempest Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.48
